@@ -1,5 +1,6 @@
 import React from 'react'
 import SocialLink from '../components/SocialLink'
+import RandomlyAnimated from '../components/RandomlyAnimated'
 
 const IndexPage = () => (
   <div className="container">
@@ -15,14 +16,20 @@ const IndexPage = () => (
     <p>
       I'm sorry if you were expecting a flashy webpage with all kinds of cool
       animations or a nice color palette, but I figured it would be better to
-      just do something a bit barebones. Bonus! It works on mobile
+      just do something a bit barebones. Bonus&mdash;It works on mobile
       out-of-the-box!
     </p>
     <p>Here's how you can find me online</p>
     <hr />
-    <SocialLink name="github" />
-    <SocialLink name="twitter" />
-    <SocialLink name="medium" />
+    <RandomlyAnimated min={5} max={9} animation="pulse">
+      <SocialLink name="github" />
+    </RandomlyAnimated>
+    <RandomlyAnimated min={4} max={20}>
+      <SocialLink name="twitter" />
+    </RandomlyAnimated>
+    <RandomlyAnimated min={2} max={7}>
+      <SocialLink name="medium" />
+    </RandomlyAnimated>
     <hr />
     <p>That's all folks!</p>
   </div>

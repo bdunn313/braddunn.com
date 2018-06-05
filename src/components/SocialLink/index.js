@@ -30,11 +30,24 @@ const getInfo = name => {
   }
 }
 
+const animations = [
+  'bounce',
+  'flash',
+  'pulse',
+  'shake',
+  'headShake',
+  'swing',
+  'tada',
+  'wobble',
+  'jello',
+]
+
 const SocialLink = ({ name }) => {
-  const info = getInfo(name)
+  const { url, icon } = getInfo(name)
+
   return (
-    <a href={info.url} className="social-link">
-      <img src={info.icon} width={40} height={40} />
+    <a href={url} className="social-link">
+      <img src={icon} width={40} height={40} />
       {name}
     </a>
   )
