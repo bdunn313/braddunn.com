@@ -21,7 +21,7 @@ const IndexPage = () => (
       or a nice color palette, but I figured it would be better to just do
       something barebones. Bonus&mdash;It works on mobile out-of-the-box!
     </p>
-    <p>Here's how you can find me online</p>
+    <p>Here's how you can find me online:</p>
     <hr />
     <RandomlyAnimated min={10} max={12}>
       <SocialLink name="github" />
@@ -32,8 +32,6 @@ const IndexPage = () => (
     <RandomlyAnimated min={2} max={7}>
       <SocialLink name="medium" />
     </RandomlyAnimated>
-    <hr />
-    <p>That's all folks!</p>
   </div>
 );
 
