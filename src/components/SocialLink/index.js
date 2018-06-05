@@ -30,18 +30,6 @@ const getInfo = name => {
   }
 };
 
-const animations = [
-  'bounce',
-  'flash',
-  'pulse',
-  'shake',
-  'headShake',
-  'swing',
-  'tada',
-  'wobble',
-  'jello',
-];
-
 const SocialLink = ({ name }) => {
   const { url, icon } = getInfo(name);
 

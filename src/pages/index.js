@@ -14,17 +14,19 @@ const IndexPage = () => (
       <a href="https://epochlyapp.com/">Epochly</a>. You should check it out! :D
     </p>
     <p>
-      I'm sorry if you were expecting a flashy webpage with all kinds of cool
-      animations or a nice color palette, but I figured it would be better to
-      just do something a bit barebones. Bonus&mdash;It works on mobile
-      out-of-the-box!
+      I'm sorry if you were expecting a flashy webpage with all kinds of{' '}
+      <RandomlyAnimated min={8} max={14} animation="pulse" inline>
+        cool animations
+      </RandomlyAnimated>{' '}
+      or a nice color palette, but I figured it would be better to just do
+      something barebones. Bonus&mdash;It works on mobile out-of-the-box!
     </p>
     <p>Here's how you can find me online</p>
     <hr />
-    <RandomlyAnimated min={5} max={9} animation="pulse">
+    <RandomlyAnimated min={10} max={12}>
       <SocialLink name="github" />
     </RandomlyAnimated>
-    <RandomlyAnimated min={4} max={20}>
+    <RandomlyAnimated min={7} max={20}>
       <SocialLink name="twitter" />
     </RandomlyAnimated>
     <RandomlyAnimated min={2} max={7}>

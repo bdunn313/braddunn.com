@@ -1,6 +1,8 @@
 import React, { Children } from 'react';
 import random from 'lodash/random';
+import sample from 'lodash/sample';
 
+import './index.scss';
 /**
  * Create and return the id of a randomly executing timeout.
  * I really didn't have to make this but i was having fun.
@@ -12,6 +14,20 @@ import random from 'lodash/random';
  */
 const createRandomTimeout = (minSeconds, maxSeconds, cb) =>
   setTimeout(cb, random(minSeconds * 1000, maxSeconds * 1000));
+
+const animations = [
+  'bounce',
+  'flash',
+  'pulse',
+  'shake',
+  'headShake',
+  'swing',
+  'tada',
+  'wobble',
+  'jello',
+];
+
+const getRandomAnimation = () => sample(animations);
 
 class RandomlyAnimated extends React.Component {
   constructor(props) {
@@ -29,9 +45,17 @@ class RandomlyAnimated extends React.Component {
   };
 
   render() {
-    const animation = this.props.animation ? this.props.animation : 'shake';
+    const animation = this.props.animation
+      ? this.props.animation
+      : getRandomAnimation();
+    const animationClasses = this.state.animating
+      ? `animated ${animation}`
+      : '';
     return (
-      <div className={this.state.animating ? `animated ${animation}` : ''}>
+      <div
+        className={animationClasses}
+        style={{ display: this.props.inline ? 'inline-block' : 'block' }}
+      >
         {this.props.children}
       </div>
     );
