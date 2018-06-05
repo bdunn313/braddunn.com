@@ -1,6 +1,6 @@
-import React from 'react'
-import SocialLink from '../components/SocialLink'
-import RandomlyAnimated from '../components/RandomlyAnimated'
+import React from 'react';
+import SocialLink from '../components/SocialLink';
+import RandomlyAnimated from '../components/RandomlyAnimated';
 
 const IndexPage = () => (
   <div className="container">
@@ -33,6 +33,6 @@ const IndexPage = () => (
     <hr />
     <p>That's all folks!</p>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;
