@@ -10,7 +10,7 @@ const IndexPage = () => (
       have experience with all sorts of tech stuff.
     </p>
     <p>
-      I'm currently the CTO of a startup working on a new app called
+      I'm currently the CTO of a startup working on a new app called{` `}
       <a href="https://epochlyapp.com/">Epochly</a>. You should check it out! :D
     </p>
     <p>
