@@ -1,21 +1,23 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
 
 function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/page-2/">Go to page 2</Link>
+      <header>
+        <h1>Hey there</h1>
+        <h2>My name is Brad Dunn and I design and develop software.</h2>
+        <h3>Mostly for the web, and mostly applications.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Necessitatibus eum, saepe quis est ea, non mollitia eius iure rerum,
+          delectus modi facilis? Impedit harum facilis voluptatem veritatis.
+          Consequuntur, delectus repellat.
+        </p>
+      </header>
     </Layout>
   );
 }

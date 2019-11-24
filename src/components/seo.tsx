@@ -67,7 +67,12 @@ function SEO({ description = "", lang = "en", meta = [], title }: SEOProps) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=Merriweather|Roboto&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   );
 }
 
