@@ -15,7 +15,6 @@
     "gatsby-plugin-typescript": "^2.1.19",
     "gatsby-source-filesystem": "^2.1.36",
     "gatsby-transformer-sharp": "^2.3.3",
-    "postcss-normalize": "^8.0.1",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
