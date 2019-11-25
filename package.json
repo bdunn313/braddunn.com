@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "braddunncom-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "The website of Brad Dunn",
+  "version": "2.0.0-alpha",
+  "author": "Brad Dunn <brad@braddunn.com>",
   "dependencies": {
     "gatsby": "^2.17.11",
     "gatsby-image": "^2.2.31",
@@ -28,7 +28,10 @@
     "typescript": "^3.7.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "website",
+    "software",
+    "personal"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,10 +45,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/bdunn313/braddunn.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/bdunn313/braddunn.com/issues"
   },
   "browserslist": [
     ">0.25%",
