@@ -11,7 +11,7 @@
     "lodash.random": "^3.2.0",
     "lodash.sample": "^4.2.1",
     "react-helmet": "^5.2.0",
-    "serve": "^9.2.0"
+    "serve": "^10.1.2"
   },
   "keywords": [
     "gatsby",
