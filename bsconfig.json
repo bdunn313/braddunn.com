@@ -1,0 +1,24 @@
+{
+  "name": "braddunn.com",
+  "version": "0.0.1",
+  "reason": { "react-jsx": 3 },
+  "sources": [
+    {
+      "dir": "components",
+      "subdirs": true
+    },
+    {
+      "dir": "pages",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "warnings": {
+    "error": "+101"
+  }
+}
