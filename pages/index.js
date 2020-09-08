@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import SocialIcons from "../components/SocialIcons";
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
           Brad Dunn
         </h1>
         <p className={styles.description}>
-          Engineer. Writer. Occasionally has good ideas.
+          Software Engineer. Writer. Occasionally has good ideas.
         </p>
+        <SocialIcons />
       </main>
     </div>
   )
