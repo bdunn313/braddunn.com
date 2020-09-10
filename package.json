@@ -14,7 +14,8 @@
     "start": "bsb -make-world -w",
     "dev": "next dev",
     "build:next": "next build",
-    "start:next": "next start"
+    "start:next": "next start",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "9.5.3",
