@@ -1,10 +1,13 @@
-[@bs.module] external githubIcon: string = "./assets/github.svg"
-[@bs.module] external mediumIcon: string = "./assets/medium.svg"
-[@bs.module] external twitterIcon: string = "./assets/twitter.svg"
+[@bs.module] external githubIcon: string = "./assets/github.svg";
+[@bs.module] external mediumIcon: string = "./assets/medium.svg";
+[@bs.module] external twitterIcon: string = "./assets/twitter.svg";
+
+type styleObject = { socialIconWrapper: string };
+[@bs.module] external styles: styleObject = "./SocialIcons.module.css";
 
 [@react.component]
 let make = () =>
-  <div>
+  <div className={styles.socialIconWrapper}>
     <SocialLink 
       url="https://github.com/bdunn313" 
       icon={githubIcon}

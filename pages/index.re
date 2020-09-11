@@ -10,7 +10,7 @@ type styleObject = {
   description: string,
 };
 
-[@bs.module] external styles: styleObject = "../styles/Home.module.css";
+[@bs.module] external styles: styleObject = "./Home.module.css";
 
 [@react.component]
 let make = () => 
@@ -29,3 +29,5 @@ let make = () =>
       <SocialIcons />
     </main>
   </div>;
+
+let default = make;

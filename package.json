@@ -2,7 +2,9 @@
   "name": "new-braddunn.com",
   "version": "0.1.0",
   "private": true,
-  "keywords": ["rescript"],
+  "keywords": [
+    "rescript"
+  ],
   "author": {
     "email": "brad@braddunn.com",
     "name": "Brad Dunn",
@@ -25,6 +27,7 @@
   },
   "devDependencies": {
     "bs-platform": "8.2.0",
+    "next-transpile-modules": "^4.1.0",
     "url-loader": "^4.1.0"
   }
 }
