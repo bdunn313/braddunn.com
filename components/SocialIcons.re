@@ -2,6 +2,7 @@
 [@bs.module] external mediumIcon: string = "./assets/medium.svg";
 [@bs.module] external twitterIcon: string = "./assets/twitter.svg";
 
+
 type styleObject = { socialIconWrapper: string };
 [@bs.module] external styles: styleObject = "./SocialIcons.module.css";
 
