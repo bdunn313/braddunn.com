@@ -1,0 +1,17 @@
+---
+layout: layouts/base.ejs
+---
+
+<article>
+  <header>
+    <h1 class="font-semibold text-xl text-gray-800"><%= title %></h1>
+    <div class="text-sm mb-8"><%= this.dateFns.format(new Date(date), 'LLLL d, yyyy') %></div>
+  </header>
+
+  <section class="content"><%- content %></section>
+
+  <footer>
+    Hey! How was it? Did you find the post helpful? Why not consider
+    <a href="https://www.buymeacoffee.com/braddunn" target="_blank">buying me a coffee</a> then?
+  </footer>
+</article>

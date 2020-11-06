@@ -1,0 +1,16 @@
+{
+  "site_name": "Brad Dunn",
+  "title": "Brad Dunn",
+  "description": "Software engineer, primarily focused on the web.",
+  "url": "https://braddunn.com",
+  "locale": "en",
+  "author": "Brad Dunn",
+  "navigation": [
+    { "title": "Home", "url": "/", "external": false },
+    { "title": "Posts", "url": "/posts", "external": false },
+    { "title": "About", "url": "/about", "external": false },
+    { "title": "GitHub", "url": "https://github.com/bdunn313", "external": true },
+    { "title": "Twitter", "url": "https://twitter.com/bdunn313", "external": true },
+    { "title": "Dev.to", "url": "https://dev.to/bdunn313", "external": true }
+  ]
+}

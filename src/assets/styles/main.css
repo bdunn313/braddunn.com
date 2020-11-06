@@ -1,0 +1,108 @@
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+  @apply underline;
+}
+
+a:hover {
+  @apply no-underline;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content {
+  @apply tracking-wider;
+  @apply leading-7;
+  @apply text-lg;
+}
+
+.content p {
+  @apply my-5;
+}
+
+.content h1 {
+  @apply text-xl;
+  @apply font-semibold;
+  @apply mt-12;
+  @apply mb-5;
+  @apply leading-10;
+}
+
+.content h2 {
+  @apply text-lg;
+  @apply font-semibold;
+  @apply mt-10;
+  @apply mb-5;
+}
+
+.content h3 {
+  @apply font-semibold;
+  @apply mt-10;
+  @apply mb-5;
+}
+
+.content h4 {
+  @apply text-lg;
+  @apply font-semibold;
+  @apply mt-10;
+  @apply mb-5;
+}
+
+.content h5 {
+  @apply font-semibold;
+  @apply mt-10;
+  @apply mb-5;
+}
+
+.content h6 {
+  @apply font-semibold;
+  @apply mt-10;
+  @apply mb-5;
+}
+
+.content ul,
+.content ol,
+.content p {
+  @apply overflow-auto;
+}
+
+.content > div > ul,
+.content > div > ol {
+  @apply my-6;
+}
+
+.content ul {
+  @apply list-outside;
+  @apply list-disc;
+}
+
+.content ol {
+  @apply list-outside;
+  @apply list-decimal;
+}
+
+.content pre[class*='language-'] {
+  @apply my-8;
+}
+
+.content table {
+  @apply whitespace-no-wrap;
+  @apply my-8;
+  @apply border-collapse;
+  @apply block;
+  @apply overflow-auto;
+}
+
+.content th,
+.content td {
+  @apply border;
+  @apply px-8;
+  @apply py-4;
+}
+
+.content th {
+  @apply bg-gray-100;
+}
